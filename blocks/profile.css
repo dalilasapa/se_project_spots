@@ -20,21 +20,24 @@
 
 .profile__name {
   margin: 0 0 12px;
+  max-width: 420px;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-style: Medium;
   font-size: 32px;
-  line-height: 1;
+  line-height: 1.3;
   letter-spacing: 0%;
   display: -webkit-box;
   overflow: hidden;
-  text-overflow: ellipsis;
   line-clamp: 3;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
 }
 
 .profile__description {
   margin: 0;
+  max-width: 420px;
 }
 
 .profile__edit-button {
@@ -80,7 +83,7 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 815px) {
   .profile {
     font-family: "Poppins", Arial, Helvetica, sans-serif;
     flex-direction: column;
@@ -103,7 +106,14 @@
   .profile__name {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1;
+    line-height: 1.2;
+    max-width: 288px;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-clamp: 3;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
   }
 
   .profile__description {
@@ -111,9 +121,16 @@
     font-weight: 500;
     font-style: Medium;
     font-size: 16px;
-    line-height: 1;
+    line-height: 1.2;
     text-align: center;
     opacity: 70%;
+    max-width: 288px;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-clamp: 3;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
   }
 
   .profile__edit-button {

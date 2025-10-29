@@ -1,23 +1,35 @@
 # Project 3: Spots
 
-https://github.com/dalilasapa/se_project_spots
+**_Welcome to Spots!_**
+Spots, in this phase, is a foundational component to our image sharing application!
 
-### Overview
+## ![Spots](https://www.dropbox.com/scl/fi/5vtn07d56jqb4dr2aez4s/Spots.gif?rlkey=4s053f9olh9qqr44tklfqjz7j&st=c3au968i&dl=0)
 
-- Intro
-- Figma
-- Images
+## Description
 
-**Intro**
+This is a _fully responsive_ web page using **HTML5**, **CSS3**, demonstrating responsive design using media queries and flexible layouts for desktops, tablets, and mobile devices.
 
-This project is made so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.
+### Tech Stack
 
-**Figma**
+**HTML5**
+**CSS3**
+**CSS vendor prefixes**
+**CSS Transitions**
+**BEM Methodology**
+**Flexbox**
+**Responsive Design**
+**Media Queries**
+**Web fonts**
+**SVG Graphics**
 
-- [Link to the project on Figma](https://www.figma.com/file/BBNm2bC3lj8QQMHlnqRsga/Sprint-3-Project-%E2%80%94-Spots?type=design&node-id=2%3A60&mode=design&t=afgNFybdorZO6cQo-1)
+### Growth
 
-**Images**
+**This project helped me bridge the gap between design and development, translating visual concepts from Figma into responsive, user-friendly code. I became more comfortable debugging & trouble-shooting with DevTools**
 
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster.
+### Deployment
 
-Good luck and have fun!
+https://dalilasapa.github.io/se_project_spots/
+
+### Future Improvements
+
+I will be adding JavaScript for functionality in the buttons, form validation, image uploads, and more.

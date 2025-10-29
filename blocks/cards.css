@@ -9,5 +9,4 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px 20px;
-  /*grid-template-columns: repeat(auto-fit, 413px);*/
 }

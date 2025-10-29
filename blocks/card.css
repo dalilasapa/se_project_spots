@@ -43,7 +43,7 @@
   max-width: 413px;
 }
 
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 815px) {
   .card {
     max-width: 288px;
   }
