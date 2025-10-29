@@ -3,7 +3,7 @@
 **_Welcome to Spots!_**
 Spots, in this phase, is a foundational component to our image sharing application!
 
-## ![Spots](https://www.dropbox.com/scl/fi/5vtn07d56jqb4dr2aez4s/Spots.gif?rlkey=4s053f9olh9qqr44tklfqjz7j&st=c3au968i&dl=0)
+## ![Spots] (https://www.dropbox.com/scl/fi/5vtn07d56jqb4dr2aez4s/Spots.gif?rlkey=4s053f9olh9qqr44tklfqjz7j&st=c3au968i&dl=0)
 
 ## Description
 

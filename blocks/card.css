@@ -9,6 +9,7 @@
   border-radius: 8px;
   display: block;
   object-fit: cover;
+  margin-bottom: 12px;
 }
 
 .card__content {
@@ -33,19 +34,21 @@
 .card__title {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-weight: 500;
-  font-style: Medium;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0%;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-  max-width: 413px;
+  max-width: 353px;
 }
 
 @media screen and (max-width: 815px) {
   .card {
     max-width: 288px;
+  }
+
+  .card__title {
+    max-width: 235px;
   }
 
   .card__image {
