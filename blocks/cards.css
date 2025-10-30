@@ -9,7 +9,7 @@
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(auto-fit, 413px);
-  gap: 40px 20px;
+  gap: 20px;
 }
 
 @media screen and (max-width: 815px) {
@@ -17,6 +17,6 @@
     display: grid;
     justify-content: center;
     grid-template-columns: 288px;
-    gap: 40px 20px;
+    gap: 20px;
   }
 }
