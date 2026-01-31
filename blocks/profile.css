@@ -52,6 +52,7 @@
   border: none;
   padding: 0;
   transition: opacity 0.5s ease-in-out;
+  cursor: pointer;
 }
 
 .profile__edit-button:hover {
@@ -78,6 +79,7 @@
   margin-left: auto;
   margin-top: 138px;
   transition: opacity 0.5s ease-in-out;
+  cursor: pointer;
 }
 
 .profile__post-button:hover {

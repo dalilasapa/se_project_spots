@@ -14,9 +14,6 @@
 
 @media screen and (max-width: 815px) {
   .cards__list {
-    display: grid;
-    justify-content: center;
     grid-template-columns: 288px;
-    gap: 20px;
   }
 }
