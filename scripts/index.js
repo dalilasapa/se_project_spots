@@ -21,28 +21,28 @@ const addCardFormElement = newPostModal.querySelector(".modal__form");
 const nameInput = newPostModal.querySelector("#new-caption-input");
 const linkInput = newPostModal.querySelector("#link-url-input");
 
-editProfileBtn.addEventListener("click", function () {
+editProfileBtn.addEventListener("click", () => {
+  openModal(editProfileModal);
   editProfileNameInput.value = profileNameElement.textContent;
   editProfileDescInput.value = profileDescElement.textContent;
-  editProfileModal.classList.add("modal_is-opened");
-});
-editProfileCloseBtn.addEventListener("click", function () {
-  editProfileModal.classList.remove("modal_is-opened");
 });
 
-newPostBtn.addEventListener("click", function () {
-  newPostModal.classList.add("modal_is-opened");
+editProfileCloseBtn.addEventListener("click", () => {
+  closeModal(editProfileModal);
 });
 
-newPostCloseBtn.addEventListener("click", function () {
-  newPostModal.classList.remove("modal_is-opened");
+newPostBtn.addEventListener("click", () => {
+  openModal(newPostModal);
+});
+newPostCloseBtn.addEventListener("click", () => {
+  closeModal(newPostModal);
 });
 
 function handleEditProfileSubmit(evt) {
   evt.preventDefault();
   profileNameElement.textContent = editProfileNameInput.value;
   profileDescElement.textContent = editProfileDescInput.value;
-  editProfileModal.classList.remove("modal_is-opened");
+  closeModal(editProfileModal);
   console.log("submitting");
 }
 editProfileForm.addEventListener("submit", handleEditProfileSubmit);
@@ -51,6 +51,16 @@ function handleAddCardSubmit(evt) {
   evt.preventDefault();
   console.log(linkInput.value);
   console.log(nameInput.value);
-  addCardFormElement.reset();
-  newPostModal.classList.remove("modal_is-opened");
+  evt.target.reset();
+  closeModal(newPostModal);
+}
+
+addCardFormElement.addEventListener("submit", handleAddCardSubmit);
+
+function openModal(modal) {
+  modal.classList.add("modal_is-opened");
+}
+
+function closeModal(modal) {
+  modal.classList.remove("modal_is-opened");
 }
